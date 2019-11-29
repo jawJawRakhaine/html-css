@@ -1,0 +1,271 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.clearall{
+    clear: both;
+}
+
+.tamplete{
+    width: 960px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: monospace;
+    font-size: 20px;
+    color: black;
+    background-color: antiquewhite;
+    line-height: 26px;
+    
+}
+
+
+.header{
+    height: 100px;
+    margin-top: 20px;
+    background: orange;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+
+.logo{
+    width: 500px;
+    float: left;
+    
+}
+
+.logo img{
+    float: left;
+    padding-left: 20px;
+    width: 70px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    margin-right: 20px;
+    
+}
+
+.logo h2{
+    margin-top: 24px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    text-shadow: 2px 3px 0px white;
+    
+    
+}
+
+.logo p{
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 5px;
+    font-size: 26px;
+    text-shadow: 1px 1px 0px white;
+}
+
+.social{
+    align-self: center;
+    width: 300px;
+    float: right;
+    
+    
+}
+
+.social img{
+    width: 40px;
+    margin-top: 20px;
+    margin-right: 10px; 
+    list-style: decimal;
+    border-radius: 50%;
+}
+
+.social img:hover{
+    
+    background-color: aqua;
+    color: antiquewhite;
+    
+    
+    
+}
+
+
+
+.navsection{
+    height: 60px;
+    background: grey;
+    border: 2px solid green;
+    border-radius: 5px;
+    
+}
+
+.navsection ul{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    
+}
+
+.navsection ul li{
+    float: left;
+    display: block;
+}
+
+.navsection ul li a{
+    display: block;
+    background: yellow;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkgrey;
+    
+}
+
+.navsection ul li a:hover{
+    background: red;
+    color: white;
+}
+
+.content{
+    padding-top: 5px;
+    
+}
+
+.slider{
+    width: 960px;
+    margin: 0 auto;
+    border: 3px solid red;
+    border-radius: 4px;
+}
+
+.maincontent{
+    width: 450px;
+    background: Silver;
+    float: left;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin: 20px;
+    margin-left: 0px;
+    padding-top: 20px;
+    
+}
+
+.samepost{
+    
+}
+
+.samepost h2{
+    padding: 10px;
+    border-bottom: 3px solid yellow;
+    border-radius: 10px;
+    background-color: mistyrose;
+    font-size: 30px;
+    margin: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.samepost img{
+    
+    float: left;
+    width: 300px;
+    margin-right: 15px;
+    background: white;
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    
+}
+
+.samepost p{
+    font-size: 18px;
+    line-height: 26px;
+    padding-left: 15px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.sidebar{
+    width: 400px;
+    background: grey;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    float: right;
+    
+}
+
+.readmore{
+    float: right;
+    margin-bottom: 10px;
+    
+    
+}
+
+.readmore a{
+    text-decoration: none;
+    background: white;
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid pink;
+    border-color: orange;
+    border-radius: 7px;
+}
+
+.readmore a:hover{
+    background: orange;
+    color: white;
+}
+
+
+.footer{
+    height: 100px;
+    background:Azure;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.footermenu{
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.footermenu ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+.footermenu ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.footermenu ul li a{
+    text-decoration: none;
+}
+
+.footermenu ul li a:hover{
+    color: darkgoldenrod;
+}
+
+.footermenu p{
+   margin-top: 5px;
+    
+}
